@@ -10,7 +10,7 @@ public class Main {
 
         ArrayList<Program> sortedOfTimePrograms = Program.sortOfTime(allPrograms);
         ArrayList<Program> getProgramsThatInCurrentTime = Program.curProgram(allPrograms, "10:10");
-        ArrayList<Program> getProgramsWithName = Program.getProgramsWithName(allPrograms, "Музыкальный майдан");
+        ArrayList<Program> getProgramsWithName = Program.getProgramsWithName(allPrograms, "Смешарики");
         ArrayList<Program> getProgramsWithCurrTimeAndChanelName = Program.getChanelNameAndCurTime(allPrograms, "08:00", "Карусель");
         ArrayList<Program> getProgramWithTimeBetweenAndChanel = Program.programBetween(allPrograms, "00:00", "03:00", "nickelodeon");
 
